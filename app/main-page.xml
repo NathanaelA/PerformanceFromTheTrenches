@@ -1,0 +1,18 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" navigatedTo="onNavigatedTo" navigatingFrom="onNavigatingFrom" class="page">
+    <Page.actionBar>
+        <ActionBar title="Performance" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <GridLayout rows="auto,auto,auto,auto,auto,auto" columns="*,*" class="p-20">
+        <Image colSpan="2" height="100" width="100" src="~/nStudion.png" id="ns"/>
+        <Label row="1" text="Enable Worker"/><Switch row="1" col="1" id="switch"/>
+        <Button row="2" text="Layout" tap="showLayout" class="btn btn-primary btn-active"/>
+        <Button row="2" col="1" text="Loops" tap="parseLoops" class="btn btn-primary btn-active"/>
+        <!-- Button text="Stack" tap="stackTest" class="btn btn-primary btn-active"/ -->
+        <Button row="3" text="Sqlite" tap="sqliteTest" class="btn btn-primary btn-active"/>
+        <!-- Button row="3" col="1" text="Array" tap="arrayTest" class="btn btn-primary btn-active"/ -->
+        <Button row="3" col="1" text="Optimization" tap="OptimizationTests" class="btn btn-primary btn-active"/>
+
+        <Label row="5" colSpan="2" id="results" text="" textWrap="true"/>
+    </GridLayout>
+</Page>

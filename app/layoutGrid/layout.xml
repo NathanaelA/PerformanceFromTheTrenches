@@ -1,0 +1,19 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatedTo="onNavigatedTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="GridLayout" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <GridLayout class="bred" rows="auto,auto,auto,auto,auto" cols="*,*,*,*,*,*">
+                <Label text="Line1" row="0" colSpan="3"/>
+                <Label text="Line2" row="1" colSpan="3"/>
+                <Label text="Line1" row="0" col="3" colSpan="3"/>
+                <Label text="Line2" row="1" col="3" colSpan="3"/>
+
+                <Label text="Line1" row="2" colSpan="2"/>
+                <Label text="Line2" row="3" colSpan="2"/>
+                <Label text="Line1" row="2" col="2" colSpan="2"/>
+                <Label text="Line2" row="3" col="2" colSpan="2"/>
+                <Label text="Line1" row="2" col="4" colSpan="2"/>
+                <Label text="Line2" row="3" col="4" colSpan="2"/>
+    </GridLayout>
+</Page>

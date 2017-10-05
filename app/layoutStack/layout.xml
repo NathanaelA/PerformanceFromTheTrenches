@@ -1,0 +1,33 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatedTo="onNavigatedTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="StackLayout" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout class="bred">
+        <StackLayout class="bgreen" orientation="horizontal">
+            <StackLayout class="bblue">
+                <Label text="Line1"/>
+                <Label text="Line2"/>
+            </StackLayout>
+            <StackLayout class="borange">
+                <Label text="Line1"/>
+                <Label text="Line2"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout class="bpurple" orientation="horizontal">
+            <StackLayout class="bblue">
+                <Label text="Line1"/>
+                <Label text="Line2"/>
+            </StackLayout>
+            <StackLayout class="borange">
+                <Label text="Line1"/>
+                <Label text="Line2"/>
+            </StackLayout>
+            <StackLayout class="bgreen">
+                <Label text="Line1"/>
+                <Label text="Line2"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</Page>

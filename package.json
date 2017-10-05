@@ -1,0 +1,26 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "org.nativescript.performance",
+    "tns-android": {
+      "version": "3.2.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-dom": "^2.0.0",
+    "nativescript-master-technology": "^1.1.1",
+    "nativescript-sqlite": "^1.1.9",
+    "nativescript-theme-core": "~1.0.2",
+    "tns-core-modules": "~3.2.0",
+    "v8-natives": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
+    "lazy": "1.0.11"
+  }
+}

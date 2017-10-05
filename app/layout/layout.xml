@@ -1,0 +1,89 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatedTo="onNavigatedTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="Layouts" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout>
+        <Label width="300" text="StackLayout w/ Borders"/>
+        <StackLayout class="bred">
+            <StackLayout class="bgreen" orientation="horizontal">
+                <StackLayout class="bblue">
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+                <StackLayout class="borange">
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout class="bpurple" orientation="horizontal">
+                <StackLayout class="bblue">
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+                <StackLayout class="borange">
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+                <StackLayout class="bgreen">
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+        <Label text=""/>
+
+        <Label width="320" text="StackLayout w/o borders"/>
+        <StackLayout  class="bred">
+            <StackLayout orientation="horizontal">
+                <StackLayout >
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+                <StackLayout >
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout orientation="horizontal">
+                <StackLayout >
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+                <StackLayout >
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+                <StackLayout >
+                    <Label text="Line1"/>
+                    <Label text="Line2"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+        <Label text=""/>
+
+
+
+        <Label text="Grid Layout"/>
+        <GridLayout class="bred" rows="auto,auto,auto,auto"
+                    columns="*,*,*,*,*,*">
+            <Label text="Line1" row="0" colSpan="2"/>
+            <Label text="Line2" row="1" colSpan="2"/>
+            <Label text="Line1" row="0" col="2" colSpan="2"/>
+            <Label text="Line2" row="1" col="2" colSpan="2"/>
+
+            <Label text="Line1" row="2" colSpan="2"/>
+            <Label text="Line2" row="3" colSpan="2"/>
+            <Label text="Line1" row="2" col="2" colSpan="2"/>
+            <Label text="Line2" row="3" col="2" colSpan="2"/>
+            <Label text="Line1" row="2" col="4" colSpan="2"/>
+            <Label text="Line2" row="3" col="4" colSpan="2"/>
+        </GridLayout>
+
+
+
+    </StackLayout>
+
+</Page>
